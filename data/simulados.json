@@ -1040,7 +1040,7 @@
       "a": "C"
     }
   ],
-  "CF ANAC 23-12": [
+  "CF ANAC 23-12 corrigido": [
     {
       "n": 1,
       "t": "O termo “estar seguro” só pode ter um significado, que é a ausência de ameaças, sendo a certificação um meio disponível para garantir a segurança.",
@@ -1349,7 +1349,7 @@
     {
       "n": 62,
       "t": "A OM não pode subcontratar uma função de manutenção de uma pessoa não certificada, mesmo que ela siga um sistema de controle de qualidade equivalente ao seguido pela organização.",
-      "a": "C"
+      "a": "E"
     },
     {
       "n": 63,
@@ -1404,7 +1404,7 @@
     {
       "n": 73,
       "t": "Para IFR noturno, é requerida a iluminação dos instrumentos, assim como a disponibilização de lanternas para a tripulação e a presença de luzes externas (navegação, anticolisão e farol de pouso).",
-      "a": "E"
+      "a": "C"
     },
     {
       "n": 74,
@@ -1488,7 +1488,7 @@
     },
     {
       "n": 90,
-      "t": "O Plano de Trabalho Anual (PTA) é elaborado pela gerência responsável pela execução da fiscalização, a partir do Portfolio de Inspeções e do risco computado para os operadores. FELIZ NATAL!",
+      "t": "O Plano de Trabalho Anual (PTA) é elaborado pela gerência responsável pela execução da fiscalização, a partir do Portfolio de Inspeções e do risco computado para os operadores. GABARITO",
       "a": "C"
     }
   ]
