@@ -2600,6 +2600,348 @@
       "a": "C"
     }
   ],
+  "CF ANAC 13-16--01": [
+    {
+      "n": 1,
+      "t": "O Anexo 17 da ICAO é o documento, no âmbito internacional, que trata do tema da Segurança da Aviação Contra Atos de Interferência Ilícita, enquanto o Anexo 9 aborda as questões de Facilitação.",
+      "a": "C"
+    },
+    {
+      "n": 2,
+      "t": "A documentação nacional que trata do tema AVSEC circunscreve-se ao PNAVSEC e aos atos normativos da ANAC.",
+      "a": "E"
+    },
+    {
+      "n": 3,
+      "t": "Os requisitos do RBAC 107 aplicam-se de maneira distinta aos operadores de aeródromos, conforme sua classe, que é dividida conforme o tipo de serviço aéreo operado e da quantidade de passageiros processados.",
+      "a": "C"
+    },
+    {
+      "n": 4,
+      "t": "A apresentação do PSA para aprovação da ANAC é obrigatória para aeródromos classes AP-2 e AP-3, para classe AP 1 que atenda voo de aeronave com capacidade superior a 30 assentos, e dispensada para classe AP-0.",
+      "a": "E"
+    },
+    {
+      "n": 5,
+      "t": "O RBAC 107 aplica-se exclusivamente ao operador de aeródromo civil de uso público compartilhado, cujas responsabilidades relacionadas à AVSEC estão previstas no PNAVSEC.",
+      "a": "E"
+    },
+    {
+      "n": 6,
+      "t": "O operador poderá implementar inclusão de medida de segurança ou procedimento alternativo de segurança em relação ao disposto na IS, desde que informe previamente à ANAC as alterações pretendidas para aprovação, através da Listagem de Inclusão de Medidas de Segurança e Procedimentos Alternativos.",
+      "a": "C"
+    },
+    {
+      "n": 7,
+      "t": "O operador de aeródromo deverá apresentar seu Programa de Segurança Aeroportuária (PSA) para a análise e aprovação da ANAC.",
+      "a": "C"
+    },
+    {
+      "n": 8,
+      "t": "O PSA do aeródromo deverá conter, dentre outros, um Programa de Controle de Qualidade AVSEC do aeródromo.",
+      "a": "C"
+    },
+    {
+      "n": 9,
+      "t": "Sempre que houver alterações no PSA de um aeródromo, o operador deverá providenciar sua revisão em até 90 dias e apresentá-lo à ANAC.",
+      "a": "C"
+    },
+    {
+      "n": 10,
+      "t": "O operador de aeródromo deverá conhecer as partes pertinentes do Programa de Segurança do Operador Aéreo (PSOA) dos operadores aéreos em operação no aeródromo e garantir a compatibilidade com as medidas do aeródromo.",
+      "a": "C"
+    },
+    {
+      "n": 11,
+      "t": "O Programa de Segurança de Operador Aéreo (PSOA) deverá ser desenvolvido pelo operador aéreo e apresentado à ANAC para aprovação, através de Instrução Suplementar, se não houver PSA estabelecido nos aeródromos em que ele opera.",
+      "a": "E"
+    },
+    {
+      "n": 12,
+      "t": "O ciclo de controle de qualidade AVSEC da ANAC é composto por três etapas, que são o planejamento das atividades, a execução das atividades e a realização da avaliação de risco.",
+      "a": "E"
+    },
+    {
+      "n": 13,
+      "t": "As atividades do controle de qualidade AVSEC, que objetivam a avaliação de procedimentos e medidas de segurança da aviação civil contra atos de interferência ilícita, circunscrevem-se às inspeções, auditorias e testes.",
+      "a": "E"
+    },
+    {
+      "n": 14,
+      "t": "O PACQ/AVSEC deve conter, no mínimo, a programação das atividades de Inspeção, Auditorias e Testes AVSEC, que serão desempenhadas conforme o planejamento.",
+      "a": "C"
+    },
+    {
+      "n": 15,
+      "t": "O DSAC é um documento com informações a respeito de ocorrências, de incidentes e de anormalidades referentes à AVSEC, podendo ser gerado por servidores da ANAC, através de um sistema informatizado, ou por regulados e pela sociedade em geral, por meio de ofício.",
+      "a": "E"
+    },
+    {
+      "n": 16,
+      "t": "Casos de Evidência de vulnerabilidade no sistema de proteção da aviação civil, Recebimento ou identificação de ameaça à segurança da aviação civil e Ocorrência de tentativa ou consumação de ato de interferência ilícita serão tratados, pela ANAC, como DSAC.",
+      "a": "C"
+    },
+    {
+      "n": 17,
+      "t": "O regulado que será submetido ao teste AVSEC deverá ter conhecimento da data exata em que a atividade será realizada, para que se programe e reúna todas as barreiras e demonstre seu potencial de garantir a segurança da aviação civil.",
+      "a": "E"
+    },
+    {
+      "n": 18,
+      "t": "O ciclo de controle de qualidade AVSEC da ANAC inclui a etapa de realização de avaliação de risco AVSEC, por meio da análise de dados de vulnerabilidade e de nível de ameaça.",
+      "a": "C"
+    },
+    {
+      "n": 19,
+      "t": "A inspeção AVSEC corresponde a uma avaliação detalhada de todos os aspectos previstos no PNAVSEC e na regulamentação da ANAC dentro das organizações envolvidas na aviação civil. 14/01",
+      "a": "E"
+    },
+    {
+      "n": 20,
+      "t": "A abordagem da ANAC na regulação econômica do transporte aéreo possui duas frentes, uma voltada a garantir um ambiente de negócios favorável ao desenvolvimento do setor e outra dedicada a garantir que esse desenvolvimento do setor não deixe de lado o respeito aos direitos do consumidor.",
+      "a": "C"
+    },
+    {
+      "n": 21,
+      "t": "A modernização regulatória é uma importante estratégia para estimular a concorrência no setor aéreo, sendo a própria criação da ANAC uma iniciativa favorável à atração de novas empresas para o setor.",
+      "a": "C"
+    },
+    {
+      "n": 22,
+      "t": "A flexibilização de restrições à participação do capital estrangeiro em empresas aéreas não faz parte das medidas adotadas no âmbito da modernização regulatória.",
+      "a": "E"
+    },
+    {
+      "n": 23,
+      "t": "O Programa “Voo Simples” é uma das ações tomadas pela ANAC para promover a simplificação regulatória e a desburocratização, focando na agilidade na certificação de empresas e a redução de custos para o setor.",
+      "a": "C"
+    },
+    {
+      "n": 24,
+      "t": "A modernização regulatória implementada pela ANAC inclui a diminuição das concessões de aeroportos ao setor privado a partir de 2011.",
+      "a": "E"
+    },
+    {
+      "n": 25,
+      "t": "O programa de concessões possui o objetivo de atrair investimentos públicos para melhorar a infraestrutura dos aeroportos e, consequentemente, promover melhorias no atendimento aos usuários.",
+      "a": "E"
+    },
+    {
+      "n": 26,
+      "t": "No âmbito da modernização regulatória, a better regulation vem sendo adotada pelos países membros da OCDE e da União Europeia, com o objetivo de alcançar uma regulação mais transparente e baseada em menos evidências.",
+      "a": "E"
+    },
+    {
+      "n": 27,
+      "t": "A Resolução ANAC nº 400/2016, tem o papel de estabelecer regras gerais sobre os direitos e deveres dos passageiros do transporte aéreo, além de trazer também flexibilidades regulatórias para viabilizar o desenvolvimento de um mercado propício à vinda de novas empresas.",
+      "a": "C"
+    },
+    {
+      "n": 28,
+      "t": "Além de estabelecer regras gerais sobre os direitos e deveres dos passageiros do transporte aéreo, a Resolução 400 ainda trata sobre a regulação econômica do mercado de aviação civil.",
+      "a": "E"
+    },
+    {
+      "n": 29,
+      "t": "A adoção de medidas de soft regulation é uma forma de buscar um ambiente de negócios favorável, que pode ser apoiada em incentivos, mas que exige comando e controle para garantir a aderência dos regulados.",
+      "a": "E"
+    },
+    {
+      "n": 30,
+      "t": "Um dos desafios na regulação econômica do transporte aéreo é equilibrar a defesa direta dos passageiros com sua defesa indireta, a qual significa a flexibilização da regulação para a atração de novas empresas.",
+      "a": "C"
+    },
+    {
+      "n": 31,
+      "t": "A atração de mais concorrência é uma forma de defesa indireta dos passageiros, pois isso atrai mais empresas que irão competir por preços e qualidade de serviços, beneficiando os passageiros com serviços mais baratos e com mais qualidade.",
+      "a": "C"
+    },
+    {
+      "n": 32,
+      "t": "Em pesquisas realizadas, os passageiros revelaram ser mais importante o histórico de atrasos e cancelamentos de uma empresa aérea do que o valor pago pela passagem.",
+      "a": "E"
+    },
+    {
+      "n": 33,
+      "t": "Para proteger o interesse direto dos passageiros em pagar menos pela passagem aérea, deve-se fortalecer sua proteção indireta, por meio da atração de mais concorrência.",
+      "a": "C"
+    },
+    {
+      "n": 34,
+      "t": "Comparativamente com outros países, o Brasil possui uma regulação considerada como protetiva do consumidor.",
+      "a": "C"
+    },
+    {
+      "n": 35,
+      "t": "Os níveis de judicialização no Brasil superam significativamente aqueles verificados em outros países, o que é algo positivo, uma vez que isso demonstra que os passageiros sempre têm razão nas suas reivindicações.",
+      "a": "E"
+    },
+    {
+      "n": 36,
+      "t": "A ANAC adotou a plataforma Consumidor.gov.br como sistema eletrônico oficial para o registro de reclamações de passageiros, obrigando apenas as empresas brasileiras de transporte aéreo público regular de passageiros a estarem ativas na plataforma e a responderem às reclamações dos usuários no prazo de até 10 dias.",
+      "a": "E"
+    },
+    {
+      "n": 37,
+      "t": "Para proteger os passageiros do transporte aéreo, é necessário estabelecer, em norma, o máximo de direitos possíveis.",
+      "a": "E"
+    },
+    {
+      "n": 38,
+      "t": "Para a efetiva proteção do consumidor e para o estímulo de um mercado onde prevalece a concorrência, é essencial que se faça, primariamente, o uso de mecanismos extrajudiciais para resolução de quaisquer conflitos. 15/01",
+      "a": "E"
+    },
+    {
+      "n": 39,
+      "t": "Tanto o operador de aeródromo, quanto o operador aéreo devem identificar as informações, dados e sistemas de tecnologia da comunicação, julgados como críticos para sua operação, e implementar medidas para protegê-los, por meio de uma avaliação de risco.",
+      "a": "C"
+    },
+    {
+      "n": 40,
+      "t": "A ANAC instituiu o Comitê de Segurança Cibernética, voltado para os assuntos externos à Agência, que possui três subcomitês; e o Comitê de Segurança da Informação e Proteção de Dados Pessoais, para tratar dos assuntos internos da Agência.",
+      "a": "C"
+    },
+    {
+      "n": 41,
+      "t": "Os subcomitês do CSC são destinados a estabelecer os critérios e procedimentos de notificação de incidentes cibernéticos na Aviação Civil, definir o Plano Setorial de Segurança Cibernética e propor ações de fomento à Segurança Cibernética.",
+      "a": "C"
+    },
+    {
+      "n": 42,
+      "t": "As concessões de aeroportos no Brasil se iniciaram em 2011, com o contrato do Aeroporto de São Gonçalo do Amarante/RN",
+      "a": "C"
+    },
+    {
+      "n": 43,
+      "t": "Dos maiores aeroportos em movimentação de passageiros no Brasil, apenas o Aeroporto do Galeão continua sob operação da Infraero, após ter sido excluído da 7ª rodada na fase de estudos de viabilidade.",
+      "a": "E"
+    },
+    {
+      "n": 44,
+      "t": "A partir da 5ª rodada de concessões, com a dificuldade de aplicar o FNAC em aeroportos regionais deficitários, passou-se a definir blocos de aeroportos superavitários e deficitários nos contratos de concessão.",
+      "a": "C"
+    },
+    {
+      "n": 45,
+      "t": "A evolução dos IQS dos aeroportos sob concessão mostram que o regime de concessões não obteve sucesso, uma vez que não houve melhoria dos índices de qualidade e nível de serviço.",
+      "a": "E"
+    },
+    {
+      "n": 46,
+      "t": "O aeroporto de Viracopos é o responsável por 90% das multas relacionadas ao cumprimento dos contratos de concessão.",
+      "a": "C"
+    },
+    {
+      "n": 47,
+      "t": "O sucesso dos programas de concessão está diretamente relacionado com o fiel cumprimentos dos contratos de concessão.",
+      "a": "C"
+    },
+    {
+      "n": 48,
+      "t": "A pandemia foi reconhecida como um evento de força maior e não segurável, sendo o risco alocado ao Poder Concedente, sendo adotadas diversas medidas para compensar seus efeitos.",
+      "a": "C"
+    },
+    {
+      "n": 49,
+      "t": "As relicitações são previstas nos casos em que as concessionárias não atingem seus objetivos contratuais, embora não exista amparo legal para esse tipo de solução. 16/01",
+      "a": "E"
+    },
+    {
+      "n": 50,
+      "t": "A regulação é um instrumento de intervenção estatal nas atividades econômicas, que restringe as possibilidades de escolhas dos agentes a ela submetidos, cuja delimitação do objeto e escopo advém do processo político, característico de cada país em cada momento social, econômico e político.",
+      "a": "C"
+    },
+    {
+      "n": 51,
+      "t": "Somente existe regulação econômica em mercados em que há monopólio, não cabendo em mercados em que há concorrência e naqueles em transição para a concorrência.",
+      "a": "E"
+    },
+    {
+      "n": 52,
+      "t": "Nos mercados em que há monopólio, ou elevado poder de mercado de um agente, a regulação é normalmente vista como um substituto da concorrência, com o objetivo de induzir os aeroportos a fornecer infraestrutura, nível de serviço e preços próximos ao que se esperaria observar em mercados competitivos.",
+      "a": "C"
+    },
+    {
+      "n": 53,
+      "t": "Em mercados em transição para a concorrência, normalmente a regulação tem o objetivo de promover a concorrência, aumentando as barreiras à entrada.",
+      "a": "E"
+    },
+    {
+      "n": 54,
+      "t": "Em mercado em que há concorrência estabelecida, não é necessário haver intervenção regulatória, uma vez que a transparência e as relações entre fornecedores e usuários já são efetivamente estabelecidas.",
+      "a": "E"
+    },
+    {
+      "n": 55,
+      "t": "A estrutura de propriedade e de exploração dos aeroportos em cada país é relevante na definição e evolução do modelo regulatório, visto que os objetivos e a forma de se regular de uma entidade estatal são iguais aos de uma empresa privada.",
+      "a": "E"
+    },
+    {
+      "n": 56,
+      "t": "A regulação econômica de aeroportos é o processo por meio do qual o Estado intervém nas decisões de oferta de infraestrutura aeroportuária, nível de serviço e sua remuneração.",
+      "a": "C"
+    },
+    {
+      "n": 57,
+      "t": "A Conferência de Economia de Aeroportos e Serviços de Navegação Aérea recomendou 10 princípios-chave para a definição dos preços por serviços aeroportuários, sendo os principais a não discriminação, a relação com custos, a transparência e a consulta aos usuários.",
+      "a": "E"
+    },
+    {
+      "n": 58,
+      "t": "Os principais objetivos da regulação econômica devem ser minimizar o risco de práticas anticompetitivas ou abuso de posição dominante, garantir a não discriminação e a transparência na precificação e promover investimentos eficientes que atendam à demanda atual e futura e gerar receita tributária para a União.",
+      "a": "E"
+    },
+    {
+      "n": 59,
+      "t": "As atividades econômicas nos aeroportos podem ser classificadas em atividades aeronáuticas e atividades não-aeronáuticas.",
+      "a": "C"
+    },
+    {
+      "n": 60,
+      "t": "As atividades econômicas aeronáuticas são aquelas realizadas à bordo de aeronave, enquanto que as atividades não-aeronáuticas são aquelas realizadas por colaboradores em solo.",
+      "a": "E"
+    },
+    {
+      "n": 61,
+      "t": "Os modelos de regulação econômica adotadas em aeroportos em diversos países são a Regulação por custos, Regulação por preços-tetos, Regulação por requisitos institucionais e Regulação por regras de defesa de concorrência.",
+      "a": "C"
+    },
+    {
+      "n": 62,
+      "t": "O modelo de Regulação por custos é tradicionalmente utilizado na regulação de setores considerados como monopólios naturais, no qual os preços são definidos de forma a remunerar os custos totais e proporcionar uma taxa de retorno atrativa ao investidor.",
+      "a": "C"
+    },
+    {
+      "n": 63,
+      "t": "Modelos de Regulação por requisitos institucionais envolvem a indicação de representantes dos usuários no conselho diretor dos aeroportos, ou a participação acionária de empresas aéreas nos aeroportos, mas o princípio mais relevante é o estabelecimento de consultas facultativas do aeroporto aos seus usuários.",
+      "a": "E"
+    },
+    {
+      "n": 64,
+      "t": "Os modelos de regulação light-handed foram adotados para incluir os usuários nas decisões referentes aos aeroportos, considerando-se que eles também tenham capacidade técnica para contribuir e participar das decisões.",
+      "a": "C"
+    },
+    {
+      "n": 65,
+      "t": "Na regulação light-handed, em vez de o regulador atuar diretamente na prescrição de investimentos, nível de serviço e preços, são estabelecidos requisitos institucionais para promover e assegurar a participação dos usuários nestas decisões.",
+      "a": "C"
+    },
+    {
+      "n": 66,
+      "t": "O modelo de Regulação por regras de defesa da concorrência é aplicado em mercados em que não se justifica uma regulação setorial específica, mas no qual apenas a aplicação de regras de defesa da concorrência já é suficiente, como o monitoramento do desempenho do mercado e da conduta dos aeroportos.",
+      "a": "C"
+    },
+    {
+      "n": 67,
+      "t": "No modelo de Regulação por regras de defesa da concorrência, não poderá ocorrer a introdução de regulação direta, ou fallback regulation, mesmo quando houver desvios de comportamento do regulado.",
+      "a": "E"
+    },
+    {
+      "n": 68,
+      "t": "Os modelo de regulação baseados em Custos e por Preços-tetos são tradicionais e mais interventivos, enquanto os modelos baseados em Requisitos Institucionais e em Regras de defesa da concorrência são menos interventivos.",
+      "a": "C"
+    }
+  ],
   "CF ANAC 18-12": [
     {
       "n": 1,
