@@ -201,11 +201,49 @@ let idx=0;
 let answered=new Map(); // n -> {marked:"C"|"E", checked:bool}
 let mode="treino"; // treino|simulado
 
+function shuffleArray(arr){
+  for(let i = arr.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function buildAllQuestions(){
+  const all = [];
+  for(const [title, items] of Object.entries(DB)){
+    for(const it of items){
+      all.push({ n: it.n, t: it.t, a: it.a, src: title });
+    }
+  }
+  return all;
+}
+
+function buildIndexBySrcAndN(){
+  const idx = {};
+  for(const [title, items] of Object.entries(DB)){
+    const m = new Map();
+    for(const it of items){
+      m.set(it.n, it);
+    }
+    idx[title] = m;
+  }
+  return idx;
+}
+
+
 function storageKey(k){ return "anac_simulados_v3::" + k; }
 function nowISO(){ return new Date().toISOString(); }
 
 function initSelect(){
   simSelect.innerHTML="";
+  // Opção para resolver todas as questões (de todos os PDFs) embaralhadas
+  {
+    const optAll=document.createElement('option');
+    optAll.value='__ALL__';
+    optAll.textContent='Todos (misturado)';
+    simSelect.appendChild(optAll);
+  }
   Object.keys(DB).forEach(k=>{
     const opt=document.createElement('option');
     opt.value=k;
@@ -249,6 +287,11 @@ function saveState(){
     answered: Array.from(answered.entries()),
     savedAt: nowISO(),
   };
+  // Para o modo 'Todos', salvamos a ordem (src+n) para o Continuar manter o mesmo embaralhamento.
+  if(simKey === '__ALL__'){
+    obj.order = questions.map(q => [q.src, q.n]);
+  }
+
   try{
     localStorage.setItem(storageKey(simKey), JSON.stringify(obj));
   }catch(e){}
@@ -272,7 +315,7 @@ function getCorrectCount(){
 }
 
 function updateMeta(){
-  simTitle.textContent = simKey || "—";
+  simTitle.textContent = (simKey === '__ALL__') ? 'Todos (misturado)' : (simKey || "—");
   progress.textContent = simKey ? `${Math.min(idx+1, questions.length)}/${questions.length}` : "0/0";
   const score = simKey ? getCorrectCount() : 0;
   scoreEl.textContent = `Acertos: ${score}`;
@@ -351,7 +394,12 @@ function render(){
 
 function startFresh(){
   simKey = simSelect.value;
-  questions = DB[simKey].slice();
+  if(simKey === '__ALL__'){
+    questions = buildAllQuestions();
+    shuffleArray(questions);
+  } else {
+    questions = DB[simKey].slice();
+  }
   idx=0;
   answered=new Map();
   mode = modeSelect.value;
@@ -372,7 +420,23 @@ function continueFromSaved(){
   if(!st) return;
 
   simKey = st.simKey;
-  questions = DB[simKey].slice();
+  if(simKey === '__ALL__'){
+    const index = buildIndexBySrcAndN();
+    const order = Array.isArray(st.order) ? st.order : null;
+    if(order){
+      const built = [];
+      for(const [srcKey, n] of order){
+        const it = index[srcKey]?.get(n);
+        if(it) built.push({ n: it.n, t: it.t, a: it.a, src: srcKey });
+      }
+      questions = built;
+    } else {
+      questions = buildAllQuestions();
+      shuffleArray(questions);
+    }
+  } else {
+    questions = DB[simKey].slice();
+  }
   idx = Math.max(0, Math.min(st.idx || 0, questions.length-1));
   mode = st.mode || "treino";
   modeSelect.value = mode;
