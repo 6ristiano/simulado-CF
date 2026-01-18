@@ -231,6 +231,15 @@ function buildIndexBySrcAndN(){
   return idx;
 }
 
+function qKey(q){
+  // No modo 'Todos', a chave precisa considerar a origem para não colidir (ex.: questão 14 de PDFs diferentes).
+  if(simKey === '__ALL__'){
+    return (q && q.src ? q.src : '') + '::' + String(q && q.n != null ? q.n : '');
+  }
+  return String(q && q.n != null ? q.n : '');
+}
+
+
 
 function storageKey(k){ return "anac_simulados_v3::" + k; }
 function nowISO(){ return new Date().toISOString(); }
@@ -308,7 +317,7 @@ function getMarked(){
 function getCorrectCount(){
   let c=0;
   for(const q of questions){
-    const rec = answered.get(q.n);
+    const rec = answered.get(qKey(q));
     if(rec && rec.marked && rec.marked === q.a) c++;
   }
   return c;
@@ -323,7 +332,7 @@ function updateMeta(){
 
 function isCurrentChecked(){
   const q=questions[idx];
-  const rec=answered.get(q.n);
+  const rec=answered.get(qKey(q));
   return !!(rec && rec.checked);
 }
 
@@ -354,7 +363,7 @@ function showFeedback(){
     return;
   }
   const q=questions[idx];
-  const rec=answered.get(q.n);
+  const rec=answered.get(qKey(q));
   if(!rec || !rec.checked){
     feedback.classList.add('hide');
     return;
@@ -381,7 +390,7 @@ function render(){
   qText.textContent = q.t;
 
   clearRadios();
-  const rec=answered.get(q.n);
+  const rec=answered.get(qKey(q));
   if(rec && rec.marked){
     const el=document.querySelector(`input[name="ans"][value="${rec.marked}"]`);
     if(el) el.checked=true;
@@ -465,7 +474,7 @@ function checkCurrent(){
     return;
   }
 
-  answered.set(q.n, {marked, checked: true});
+  answered.set(qKey(q), {marked, checked: true});
   updateMeta();
   setButtons();
   showFeedback();
@@ -479,13 +488,13 @@ function onAnswerChange(){
   if(!marked) return;
 
   if(mode === "simulado"){
-    answered.set(q.n, {marked, checked: false});
+    answered.set(qKey(q), {marked, checked: false});
     updateMeta();
     saveState();
     return;
   }
 
-  answered.set(q.n, {marked, checked: false});
+  answered.set(qKey(q), {marked, checked: false});
   feedback.classList.add('hide');
   updateMeta();
   setButtons();
@@ -533,7 +542,7 @@ function finish(){
   const wrong = [];
   const blank = [];
   for(const q of questions){
-    const rec = answered.get(q.n);
+    const rec = answered.get(qKey(q));
     if(!rec || !rec.marked){ blank.push(q.n); continue; }
     if(rec.marked !== q.a) wrong.push(q.n);
   }
