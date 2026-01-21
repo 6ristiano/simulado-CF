@@ -53,6 +53,7 @@
     }
     .qnum{font-weight:800}
     .qtext{white-space:pre-wrap}
+    .qsrc{margin:2px 0 8px 0;opacity:.75}
     .answers{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
     .opt{
       border:1px solid var(--line);background:rgba(0,0,0,.18);
@@ -127,6 +128,7 @@
 
     <div id="questionArea" class="hide">
       <div class="qnum" id="qNum"></div>
+      <div class="qsrc mini" id="qSrc"></div>
       <div class="qtext" id="qText"></div>
 
       <div class="answers">
@@ -182,6 +184,7 @@ const questionArea = document.getElementById('questionArea');
 const resultArea = document.getElementById('resultArea');
 
 const qNum = document.getElementById('qNum');
+const qSrc = document.getElementById('qSrc');
 const qText = document.getElementById('qText');
 
 const checkBtn = document.getElementById('checkBtn');
@@ -387,6 +390,7 @@ function showFeedback(){
 function render(){
   const q=questions[idx];
   qNum.textContent = `Questão ${q.n}`;
+  qSrc.textContent = (simKey === '__ALL__' && q.src) ? `Origem: ${q.src}` : '';
   qText.textContent = q.t;
 
   clearRadios();
