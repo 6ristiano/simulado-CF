@@ -3,8 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Simulados ANAC — C/E</title>
+  <title>Celasque — Simulados C/E</title>
+<link rel="icon" href="assets/celasque.png">
+<link rel="apple-touch-icon" href="assets/celasque.png">
   <style>
+/* Branding */
+.brand{display:flex;align-items:center;gap:14px;margin:0 0 10px 0}
+.brand-logo{width:48px;height:48px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.brand-name{font-size:40px;letter-spacing:.2px}
+@media (max-width: 520px){
+  .brand-name{font-size:32px}
+  .brand-logo{width:40px;height:40px}
+}
+
+
     :root{
       --bg:#0b0f17; --muted:#9fb0c7; --text:#eaf0ff;
       --good:#18c37e; --bad:#ff5c7a; --line:rgba(255,255,255,.10);
@@ -86,7 +98,7 @@
 <div class="wrap">
   <header>
     <div>
-      <h1>Simulados ANAC — C/E</h1>
+      <h1 class="brand"><img src="assets/celasque.png" alt="Celasque" class="brand-logo"><span class="brand-name">Celasque</span></h1>
       <div class="sub">
         Escolha o simulado, responda <b>Certo</b> / <b>Errado</b> e veja a correção.
         <br><span class="mini">Modo <b>Treino</b>: mostra gabarito na hora. Modo <b>Simulado</b>: só mostra no final. Progresso salvo automaticamente.</span>
